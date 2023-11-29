@@ -250,7 +250,7 @@ local function get_groups()
     GruvboxBg2 = { fg = colors.bg2 },
     GruvboxBg3 = { fg = colors.bg3 },
     GruvboxBg4 = { fg = colors.bg4 },
-    GruvboxRed = { fg = colors.faded_red },
+    GruvboxRed = { fg = colors.red },
     GruvboxRedBold = { fg = colors.red, bold = config.bold },
     GruvboxGreen = { fg = colors.green },
     GruvboxGreenBold = { fg = colors.green, bold = config.bold },
