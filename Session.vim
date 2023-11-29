@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +253 lua/gruvbox.lua
+badd +0 lua/gruvbox.lua
 argglobal
 %argdel
 edit lua/gruvbox.lua
@@ -28,12 +28,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 253 - ((160 * winheight(0) + 87) / 174)
+let s:l = 1 - ((0 * winheight(0) + 87) / 174)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 253
-normal! 040|
+keepjumps 1
+normal! 017|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

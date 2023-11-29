@@ -348,7 +348,7 @@ local function get_groups()
     PreCondit = { link = "GruvboxAqua" },
     Constant = { link = "GruvboxPurple" },
     Character = { link = "GruvboxPurple" },
-    String = { fg = colors.faded_green, italic = config.italic.strings },
+    String = { fg = colors.green, italic = config.italic.strings },
     Boolean = { link = "GruvboxPurple" },
     Number = { link = "GruvboxPurple" },
     Float = { link = "GruvboxPurple" },
