@@ -11,6 +11,11 @@ A port of [gruvbox community](https://github.com/gruvbox-community/gruvbox) them
     <img src="https://i.postimg.cc/fy3tnGFt/gruvbox-themes.png" />
 </p>
 
+
+
+## forked from  https://github.com/ellisonleao/gruvbox.nvim
+
+
 # Prerequisites
 
 Neovim 0.8.0+
